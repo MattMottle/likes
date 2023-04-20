@@ -1,0 +1,115 @@
+.container{
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner {
+    background-color: black;
+    color: white;
+    height: 75px;
+    width: 800px;
+}
+.banner p {
+    padding-left: 75px;
+    padding-top: 20px;
+    font-size: 24pt;
+    font-family: helvetica;
+}
+h1 {
+    margin-left: 425px;
+    font-family: helvetica;
+}
+.main {
+    display: flex;
+
+}
+.left-column {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid black;
+    flex: 1;
+}
+.left-column img {
+    width: 200px;
+}
+.left-column p {
+    font-size: 20pt;
+}
+.right-column {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 3;
+    padding: 20px;
+    font-family: helvetica;
+    margin-top: -20px;
+}
+.box1 {
+    border: 3px solid black;
+    padding: 10px;
+}
+.box2 {
+    border: 3px solid black;
+    padding: 10px;
+}
+.box3 {
+    border: 3px solid black;
+    padding: 10px;
+}
+.neil {
+    display: flex;
+    font-size: 20pt;
+}
+.neil button {
+    width: 75px;
+    height: 30px;
+    background-color: yellow;
+    color: black;
+    box-shadow: 3px 3px 3px black;
+}
+.nichole {
+    display: flex;
+    font-size: 20pt;
+}
+.nichole p {
+    width: 120px;
+}
+.nichole button {
+    width: 75px;
+    height: 30px;
+    background-color: yellow;
+    color: black;
+    box-shadow: 3px 3px 3px black;
+}
+.jim {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20pt;
+}
+.jim button {
+    width: 75px;
+    height: 30px;
+    background-color: yellow;
+    color: black;
+    box-shadow: 3px 3px 3px black;
+}
+.likebutton {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 14pt;
+    align-items: center;
+    width: 200px;
+    padding-right: 20px;
+    margin-right: 10px;
+    margin-left: 200px;
+}
+.comment1, .comment2, .comment3 {
+    font-size: 16pt;
+}
